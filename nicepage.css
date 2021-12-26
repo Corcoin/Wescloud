@@ -35522,14 +35522,15 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
-.u-header .u-section-row-1 {
-  background-image: none;
+.u-header .u-image-1 {
   margin-top: 0;
   margin-bottom: 0;
+  background-image: url("images/07333014f699a394b44f17d39bda74fa9a76c425a6f5cb7085771ce049ec9caba6681f7119ca5f783ca189900b7515ce03232af514840b36fe4d19_1280.jpg");
+  background-position: 50% 50%;
 }
 
 .u-header .u-sheet-1 {
-  min-height: 99px;
+  min-height: 132px;
 }
 
 .u-header .u-social-icons-1 {
@@ -35554,9 +35555,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-text-1 {
-  font-family: "Architects Daughter";
   font-size: 2.25rem;
-  margin: -28px 716px 38px 0;
+  font-family: "Cherry Cream Soda";
+  margin: -28px 265px 37px 485px;
 }
 .u-header .u-section-row-2 {
   background-image: none;
@@ -35584,43 +35585,47 @@ a.u-link.u-text-hover-grey-90:hover {
   text-transform: none;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 109px;
+  }
+
   .u-header .u-text-1 {
-    margin-top: -28px;
-    margin-right: 516px;
-    font-weight: normal;
+    width: 391px;
+    margin-left: 385px;
+    margin-right: 165px;
   }
 }
 
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 83px;
+  }
+
   .u-header .u-text-1 {
-    margin-right: 296px;
+    margin-left: 275px;
+    margin-right: 55px;
   }
 }
 
 @media (max-width: 767px) {
   .u-header .u-sheet-1 {
-    min-height: 101px;
+    min-height: 62px;
   }
 
   .u-header .u-text-1 {
-    width: auto;
-    margin-right: 233px;
-    margin-bottom: 38px;
+    margin-left: 150px;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 131px;
-  }
-
-  .u-header .u-social-icons-1 {
-    margin-top: 27px;
-    margin-right: auto;
+    min-height: 39px;
   }
 
   .u-header .u-text-1 {
-    margin: 20px 17px 27px;
+    width: 340px;
+    margin-left: 0;
   }
 }
 
@@ -35634,6 +35639,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-1 {
   width: 417px;
+  font-weight: 700;
+  font-size: 1.25rem;
   margin: 49px auto;
 }
 @media (max-width: 1199px) {
